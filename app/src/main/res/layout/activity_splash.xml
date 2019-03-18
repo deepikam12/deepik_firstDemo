@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/splashscreen"
+android:id="@+id/ll_header"
+android:orientation="vertical"
+tools:context="com.tobaccocessation.activity.SplashActivity">
+
+
+
+<Button
+    android:id="@+id/btn_start"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_140sdp" />
+
+</RelativeLayout>

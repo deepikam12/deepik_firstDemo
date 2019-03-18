@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landing_bg"
+    tools:context="com.tobaccocessation.activity.SubmitQuestionActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:background="@color/light_blue"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:id="@+id/iv_navi"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/nav_pills" />
+
+        <ImageView
+            android:id="@+id/iv_video"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/video_icon_disabled" />
+
+        <ImageView
+            android:id="@+id/iv_chat"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/chat_con_disabled" />
+    </RelativeLayout>
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:layout_below="@+id/toolbar"
+        android:textColor="@color/white"
+        android:background="@color/red_header"
+        android:id="@+id/tv_empty"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/smiley"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:src="@drawable/navi_thinking" />
+
+    <TextView
+        android:id="@+id/tv_wait"
+        style="@style/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smiley"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:gravity="center"
+        android:text="@string/sub_ques" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_retry"
+        android:textColor="@color/white"
+        android:padding="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wait"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:background="@color/light_blue"
+        android:gravity="center"
+        android:text="@string/retry" />
+
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+
+       android:layout_marginTop="@dimen/_10sdp" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/homeloader"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_retry"
+        android:indeterminate="true"
+        app:cpb_color="@color/colorAccent"
+        app:cpb_min_sweep_angle="10"
+        app:cpb_rotation_speed="1.0"
+        app:cpb_stroke_width="4dp"
+        app:cpb_sweep_speed="1.0" />
+</RelativeLayout>

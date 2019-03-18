@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_blue"
+    android:padding="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/iv_back_arrow"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:src="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/iv_video"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/video_icon_disabled" />
+
+    <ImageView
+        android:id="@+id/iv_chat"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:src="@drawable/chat_con_disabled" />
+</RelativeLayout>
+

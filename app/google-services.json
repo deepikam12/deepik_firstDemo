@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "710127783194",
+    "firebase_url": "https://tobacco-navi.firebaseio.com",
+    "project_id": "tobacco-navi",
+    "storage_bucket": "tobacco-navi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710127783194:android:68167a49bb2dcd08",
+        "android_client_info": {
+          "package_name": "com.tobaccocessation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710127783194-eooji9835qmspvhvnj9iacfgauo2mt9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ7z5nkIJcU36I6CC7P74nSB1KWaUVFR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

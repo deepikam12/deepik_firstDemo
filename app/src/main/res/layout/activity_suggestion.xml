@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landing_bg"
+    android:orientation="vertical"
+
+    tools:context="com.tobaccocessation.activity.SuggestionActivity">
+
+
+    <!--<include layout="@layout/toolbar" />-->
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:padding="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/iv_navi"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/nav_pills" />
+
+        <ImageView
+            android:id="@+id/iv_video"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/video_icon_disabled" />
+
+        <ImageView
+            android:id="@+id/iv_chat"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/chat_con_disabled" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/smiley"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_below="@+id/rl_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/navi_avatar" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_15sdp"
+        android:id="@+id/textview"
+        style="@style/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smiley"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Based on our chat,\nhere's what I suggest: " />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_65sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:gravity="bottom">
+
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:text="@string/next"
+            style="@style/Text"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

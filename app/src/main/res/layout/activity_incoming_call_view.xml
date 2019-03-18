@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landing_bg"
+    android:orientation="vertical"
+    tools:context="com.tobaccocessation.activity.IncomingCallViewActivity">
+
+    <TextView
+
+        android:id="@+id/tv_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/red_header"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/smiley"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:src="@drawable/navi_laughing" />
+
+
+    <TextView
+        android:id="@+id/tv_notification_title"
+        style="@style/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smiley"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/white" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_70sdp"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+
+
+    <TextView
+    style="@style/Text"
+    android:id="@+id/tv_accept"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_weight="1"
+    android:background="@color/green"
+    android:gravity="center"
+    android:text="@string/accept"
+    android:textColor="@color/white"
+    android:textStyle="bold" />
+
+    <View
+    android:layout_width="@dimen/_1sdp"
+    android:layout_height="match_parent"
+    android:background="@color/white" />
+
+    <TextView
+    android:id="@+id/tv_reject"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_weight="1"
+    android:background="@color/red_header"
+    android:gravity="center"
+    android:text="@string/reject"
+    style="@style/Text"
+    android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <!--<RelativeLayout-->
+        <!--android:layout_margin="@dimen/_50sdp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/_70sdp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--&gt;-->
+
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/tv_accept"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="@style/Text"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@color/green"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@string/accept"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@color/white"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textStyle="bold" />&ndash;&gt;-->
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_accept"-->
+            <!--android:layout_width="@dimen/_55sdp"-->
+            <!--android:layout_height="@dimen/_55sdp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:src="@drawable/video_blink"-->
+
+            <!--/>-->
+
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_reject"-->
+            <!--android:layout_width="@dimen/_55sdp"-->
+            <!--android:layout_height="@dimen/_55sdp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:src="@drawable/hangup_blink"-->
+
+            <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/homeloader"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/tv_retry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:cpb_color="@color/colorAccent"
+        app:cpb_min_sweep_angle="10"
+        app:cpb_rotation_speed="1.0"
+        app:cpb_stroke_width="4dp"
+        app:cpb_sweep_speed="1.0" />
+</RelativeLayout>

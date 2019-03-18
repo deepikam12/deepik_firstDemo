@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0070ff</color>
+    <color name="black_head">#000000</color>
+    <color name="red_header">#cf2a27</color>
+    <color name="green">#1AA260</color>
+
+
+    <color name="sky_blue">#61c5f4</color>
+    <color name="blue">#0e4dd6</color>
+    <color name="grey">#b5b5b5</color>
+    <color name="yellow">#e7a406</color>
+    <color name="sky__blue">#0070FF</color>
+    <color name="navy_blue">#4f89c2</color>
+    <color name="dark_grey">#3a3b33</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="blue_navy">#275587</color>
+    <color name="light_blue">#094C67</color>
+
+    <color name="ques_color">#aeafad</color>
+    <color name="light_grey">#e8e9e7</color>
+    <color name="ans_color">#3a3b33</color>
+    <color name="line_tandc">#49749D</color>
+    <color name="radio_button">#016c20</color>
+    <color name="gray_radio">#989898</color>
+    <color name="red">#B43B15</color>
+    <color name="header">#0070ff</color>
+    <color name="logout_color">#0075F7</color>
+    <color name="transparent">#00FFFFFF</color>
+
+</resources>

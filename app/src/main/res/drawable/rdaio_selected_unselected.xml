@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:color="@color/radio_button"></item>
+    <item android:state_checked="false" android:color="@color/dark_grey"></item>
+
+
+        <!--<item android:state_checked="true" android:c="@drawable/circle_green"-->
+
+            <!--/>-->
+        <!--<item android:state_checked="false" android:drawable="@drawable/circle_gray" />-->
+    <!--android:color="@color/single_choice_checked-->
+</selector>

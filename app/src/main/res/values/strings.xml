@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Tobacco Navi</string>
+
+    <string name="server_error">Unable to connect server. Try Again</string>
+    <string name="ans_val">Please select answer.</string>
+    <string name="gmail_package">Gmail App is not installed.</string>
+
+    <string name="dont_allow">DON\'T ALLOW</string>
+    <string name="ok">OK</string>
+    <string name="dialog_title">\"Application\" Would like to send you Push Notification</string>
+    <string name="start">START</string>
+    <string name="dialog_msg">Notifications may include alerts, sound and icon badges. These can be configured in Settings.</string>
+    <string name="name">What is your name?</string>
+    <string name="next">NEXT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="reset">Reset</string>
+    <string name="yes">YES</string>
+    <string name="retake_survey">RETAKE\nSURVEY</string>
+    <string name="contact_coach">CONTACT\nCOACH</string>
+    <string name="receive_mail">You will receive a mail at this\nemail id</string>
+    <string name="ask_ques">I\'m going to ask a few questions so that I can help and find the best way for you to quit using tobacco.</string>
+
+    <string name="no">NO</string>
+    <string name="create_acc_no">No, thank you</string>
+    <string name="create_acc_yes"> Yes, create an account</string>
+    <string name="retry">Retry</string>
+    <string name="empty_name">To proceed, please enter the details with *</string>
+    <string name="video_call">A coach will video call you shortly</string>
+    <string name="chat_conv">A coach will text you  shortly</string>
+
+    <string name="sub_ques">Alright, I think I have\n enough to go on now.\n\n Give me a sec....</string>
+    <string name="connect_to">Please wait while we are\n connecting you to a\ncoach</string>
+
+    <string name="hi">Hi. I\'m Navi</string>
+    <string name="login">Please log into\n your account</string>
+    <string name="have_account">But first, do you have\n an account?</string>
+    <string name="retake">Would you like to retake  the survey or contact coach?</string>
+    <string name="create_acc">To discuss these options with a Coach, create an account</string>
+    <string name="ask_account">Would you like to create an account to discuss these options?
+</string>
+
+
+    <string name="ask_coach">Would you like to talk to a coach to discuss these options?
+</string>
+    <string name="feel_free">Thank you for using the \napp, feel free to use the \napp again if you would\n like to contact a Coach.</string>
+
+    <string name="hi_txt">I\'m going to guide you through the best options for you to quit smoking.</string>
+    <string name="coach_connect">If you \'d like I can connect with you with a Cleveland Clinic Coach.</string>
+    <string name="thank_you">Thank you, your\n inforamtion has been\nshared with our coach </string>
+    <string name="i_agree">I AGREE</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="TC">Please read our Terms &amp; Conditions to continue.</string>
+    <string name="tc">We understand, acknowledge and respect any individual’s right to privacy and the concerns one may have in regard to privacy and security. We recognize the \n\nThank you for visiting Cleveland Clinic Wellness Enterprise LLC Cleveland Clinic Wellness website.\n\nThe Cleveland Clinic Wellness Enterprise LLC Cleveland Clinic Wellness website is provided for the benefit of the general public. All health information posted on the site is based on the latest research and national treatment standards, and have been written or reviewed and approved by Cleveland Clinic physicians or health professionals unless otherwise specified.\n\nThe information provided on http://www.ClevelandClinicWellness.com is designed to support, not replace, the relationship that exists between patient/site visitor and his/her physician.\n\nBy accessing, browsing and/or using webpages or other digital content in this site, you accept, without limitation or qualification, the following terms of use.
+
+    </string>
+    <string name="zip_code">(I won\'t store any of these information unless \nyou want me to)</string>
+    <string name="email_val"> Please enter valid email.</string>
+    <string name="phone_val"> Please enter phone number.</string>
+    <string name="email_empty_val"> Please enter email.</string>
+    <string name="pass_empty_val"> Please enter password.</string>
+
+    <string name="age_val"> Please enter your name.</string>
+    <string name="empty_age">Please enter your age.</string>
+    <string name="val_age"> Please enter a valid age.</string>
+    <string name="empty_zip">Please enter Zip Code.</string>
+    <string name="val_zip"> Please enter a valid Zip Code.</string>
+    <string name="val_pass"> Please enter a valid Password.</string>
+
+    <string name="no_internet">No internet Connection</string>
+    <string name="select_val">Please select one option</string>
+    <string name="feature_val">Feature not implemented yet.</string>
+    <string name="firstname">Please enter your first name.</string>
+    <string name="name_val">Please enter alphabetical characters.</string>
+    <string name="lastname">Please enter your last name.</string>
+    <string name="pass">Please enter password.</string>
+    <string name="phone">Please enter 10-digit phone number.</string>
+    <string name="confirmPass">Please enter confirm password.</string>
+    <string name="confirmPass_match">Your password and confirm password do not match.</string>
+
+
+    <string name="create_account">Please create \nyour account</string>
+    <string name="first_name">first Name</string>
+    <string name="accept">ACCEPT</string>
+    <string name="reject">DECLINE</string>
+    <string name="last_name">last Name</string>
+    <string name="phone_no">phone Number</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm Password</string>
+    <string name="email_contact">A coach will email you shortly</string>
+    <string name="phone_contact">A coach will call you shortly</string>
+    <string name="sorry_chat_video">Sorry no coaches are \nonline right now, you will\nreceive a notification when someone contact\'s you.</string>
+    <string name="chat_contact">A coach will call you shortly</string>
+    <!--videocall-->
+
+
+    <string name="action_settings">Settings</string>
+    <string name="room_status">status</string>
+    <string name="error_retrieving_access_token">Error retrieving token</string>
+    <string name="log_out">Log Out</string>
+    <string name="permissions_needed">Camera and Microphone permissions needed. Please allow in App Settings for additional functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="video_status_islogin">You need to have an account for using this feature.</string>
+    <string name="video_status_wrong_mode">Sorry, you have chosen contact via </string>
+    <string name="video_status_no_mode_selected">You did not selected any mode of connection</string>
+    <string name="video_status_no_coach">Sorry no coaches are online right now, you will receieve a notification and video icon will turn white when someone contact’s you</string>
+    <string name="chat_status_no_coach">Sorry no coaches are online right now, you will receieve a notification and chat icon will turn white when someone contact’s you</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="codec_title">Set your preferred audio and video codec. Not all codecs are supported with Group rooms. The media server will fallback to OPUS or VP8 if a preferred codec is not supported.</string>
+    <string name="pref_title_audio_codec">Audio Codec</string>
+    <string name="pref_title_video_codec">Video Codec</string>
+    <string name="sender_bandwidth_constraints">Set sender bandwidth constraints. Zero represents the WebRTC default value which varies by codec.</string>
+    <string name="max_audio_bitrate">Max Audio Bitrate (bits per second)</string>
+    <string name="max_video_bitrate">Max Video Bitrate (bits per second)</string>
+    <string name="turn_speaker_on">Speaker ON</string>
+    <string name="vp8_simulcast">VP8 Simulcast</string>
+
+
+    <!--string related chat-->
+    <string name="default_channel_name">General Channel</string>
+    <string name="default_channel_unique_name">general</string>
+    <string name="new_channel_prompt">Enter a name for the new channel:</string>
+    <string name="generic_error">An error occurred, please try again</string>
+    <string name="message_deletion_forbidden">You cannot delete this channel</string>
+    <string name="loading_channels_message">Loading channel information</string>
+    <string name="channel_name_required_message">Channel name cannot be empty</string>
+    <string name="channel_delete_prompt_message">Are you sure you want to delete this channel?</string>
+    <string name="channel_name_equals_default_name">You cannot create a channel with the default channel\'s name</string>
+
+
+</resources>
+
+

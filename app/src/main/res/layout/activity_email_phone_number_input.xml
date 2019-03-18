@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/landing_bg"
+
+    tools:context="com.tobaccocessation.activity.EmailPhoneNumberInputActivity">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:layout_below="@+id/toolbar"
+        android:textColor="@color/white"
+        android:background="@color/red_header"
+        android:id="@+id/tv_empty"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+
+        android:id="@+id/smiley"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/navi_avatar" />
+
+
+    <LinearLayout
+        android:layout_below="@id/smiley"
+        android:id="@+id/ll_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="vertical"
+>
+
+        <TextView
+            android:id="@+id/tv_ok"
+            style="@style/Text"
+            android:text="OK.."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_15sdp"
+            android:id="@+id/tv_heading"
+            style="@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_below="@id/ll_option"
+        android:id="@+id/ll_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/Text"
+            android:id="@+id/tv_plusOne"
+            android:text="+1"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <EditText
+        style="@style/Text"
+        android:id="@+id/et_phone_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_option"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/white"
+        android:gravity="center"/>
+
+
+      />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            style="@style/Text"
+            android:id="@+id/tv_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:text="@string/next"
+            android:layout_marginTop="-5dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_marginTop="@dimen/_10sdp" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/homeloader"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_retry"
+        android:indeterminate="true"
+        app:cpb_color="@color/colorAccent"
+        app:cpb_min_sweep_angle="10"
+        app:cpb_rotation_speed="1.0"
+        app:cpb_stroke_width="4dp"
+        app:cpb_sweep_speed="1.0" />
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landing_bg"
+
+    tools:context="com.tobaccocessation.activity.Question2Activity">
+
+    <include
+        android:id="@+id/my_toolbar"
+        layout="@layout/toolbar" />
+    <ImageView
+        android:id="@+id/iv_smileyType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_below="@id/toolbar"
+        android:src="@drawable/navi_laughing"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_smileyType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="Hi" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        style="@style/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:gravity="center"
+        android:text="@string/ask_ques" />
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:text="@string/next"
+            style="@style/Text"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>
